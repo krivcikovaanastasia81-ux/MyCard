@@ -1,6 +1,7 @@
 @font-face {
-  font-family: "Normalidad";
-  src: url("../fonts/fonnts.com-Normalidad_Wide_Black.otf") format("truetype");
+  font-family: "bianzhidai_noBG";
+  src: url("../fonts/bianzhidai-2.0-main/fonts/bianzhidai_noBG/OTF/bianzhidai_noBG-Pearl.otf")
+    format("truetype");
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
 }
