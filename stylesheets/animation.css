@@ -1,0 +1,8 @@
+@keyframes BoxColorChange {
+  0% {
+    background-color: cornflowerblue;
+  }
+  100% {
+    background-color: coral;
+  }
+}
