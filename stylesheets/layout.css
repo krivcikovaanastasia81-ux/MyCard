@@ -40,6 +40,9 @@ h1 {
 .smallBoxes {
   background-color: #161616;
 }
+.smallBoxesInLine {
+  background-color: #161616;
+}
 /* s1 */
 .section1 {
   width: 62.8vw;
@@ -204,7 +207,7 @@ h1 {
 }
 .box2Section4 {
   width: 100%;
-  height: 33%;
+  height: 32%;
   display: flex;
   flex-direction: row;
 }
@@ -244,8 +247,62 @@ h1 {
   height: 12.3vw;
   background-image: url("../images/19.svg");
 }
-.box23ection4 {
+.box3Section4 {
   width: 100%;
-  height: 34%;
+  height: 32.6%;
   flex-direction: row;
+}
+.smallBoxLine1 {
+  width: 12vw;
+  height: 12.3vw;
+}
+.smallBoxLine2 {
+  width: 12.8vw;
+  height: 12.3vw;
+}
+.smallBoxLine3 {
+  width: 12.6vw;
+  height: 12.3vw;
+}
+.smallBoxLine4 {
+  width: 12.8vw;
+  height: 12.3vw;
+}
+.smallBoxSVGLine5 {
+  width: 12.6vw;
+  height: 12.3vw;
+  background-image: url("../images/17.svg");
+}
+.smallBoxLine6 {
+  width: 12.4vw;
+  height: 12.3vw;
+}
+.smallBoxLine7 {
+  width: 12vw;
+  height: 12.3vw;
+}
+.smallBoxLine8 {
+  width: 12vw;
+  height: 12.3vw;
+}
+/* s5 */
+.section5 {
+  width: 100vw;
+  height: 50vw;
+  background-color: #0000ff;
+  opacity: 60%;
+  margin-top: 37vw;
+  position: relative;
+  z-index: -9;
+}
+.imgSection5 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e6e6e6;
+}
+.img1Section5 {
+  position: absolute;
+  width: 10vw;
+  height: 50vw;
 }
