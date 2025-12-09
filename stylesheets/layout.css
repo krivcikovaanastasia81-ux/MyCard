@@ -32,6 +32,11 @@ h1 {
 .smallBoxes {
   background-color: #000000;
 }
+.smallBoxes:hover {
+  background-color: #0cd2c5;
+  transition: 1s ease;
+  animation-delay: -1s;
+}
 .smallBoxesInLine {
   background-color: #000000;
 }
