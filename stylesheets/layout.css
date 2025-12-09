@@ -2,6 +2,119 @@
   box-sizing: border-box;
 }
 body {
+  display: block;
+  height: 185vw;
   width: 100vw;
-  background-color: #5b5b5b;
+  background-image: url(../images/otkritka.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -10;
+  background-color: #161616;
+  background-blend-mode: soft-light;
 }
+h1 {
+  color: #f4f4f4;
+  font-family: "bianzhidai_noBG";
+  font-size: 2.8vw;
+  line-height: 3vw;
+}
+.boxImages {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e6e6e6;
+}
+.conteiner1 {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.boxConteiner1 {
+  background-color: #00a6ff;
+  display: flex;
+  flex-flow: column wrap;
+}
+/* s1 */
+.section1 {
+  width: 62.8vw;
+  height: 53vw;
+  opacity: 60%;
+}
+.box1Section1 {
+  width: 100%;
+  height: 32.6vw;
+}
+.image1Section1 {
+  width: 24.7vw;
+  height: 32.59vw;
+  background-image: url("../images/1.svg");
+}
+.image2Section1 {
+  width: 38.1vw;
+  height: 22.22vw;
+  background-image: url("../images/2.svg");
+}
+.textSection1 {
+  width: 38.1vw;
+  height: 10.38vw;
+  padding: 2.25vw 2vw;
+  background-color: #000000;
+}
+.box2Section1 {
+  width: 100%;
+  height: 20.4vw;
+}
+.image3Section1 {
+  width: 37.4vw;
+  height: 22.22vw;
+  background-image: url("../images/4.svg");
+}
+.image4Section1 {
+  width: 25.4vw;
+  height: 22.22vw;
+  background-image: url("../images/5.svg");
+}
+/* s2 */
+.section2 {
+  width: 62.8vw;
+  height: 35.3vw;
+  background-color: #0000ff;
+  opacity: 60%;
+}
+.box1Section2 {
+  width: 100%;
+  height: 35.3vw;
+}
+.box2Section2 {
+  width: 5vw;
+  height: 5vw;
+  flex-direction: row;
+}
+.image1Section2 {
+  width: 24.8vw;
+  height: 24.4vw;
+  background-image: url("../images/7.svg");
+}
+.image2Section2 {
+  width: 24.8vw;
+  height: 10.9vw;
+  background-image: url("../images/10.svg");
+}
+.image3Section2 {
+  width: 25.4vw;
+  height: 24.4vw;
+  background-image: url("../images/8.svg");
+}
+.textSection2 {
+  width: 25.4vw;
+  height: 10.9vw;
+  padding: 2.25vw 2vw;
+  background-color: #000000;
+}
+.image4Section2 {
+  width: 12.6vw;
+  height: 100%;
+  background-image: url("../images/9.svg");
+}
+/* s2 */
