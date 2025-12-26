@@ -6,7 +6,7 @@ body {
   display: block;
   height: 185vw;
   width: 100vw;
-  z-index: -10;
+  /* z-index: -10; */
   background-color: #000000;
 }
 h1 {
@@ -133,7 +133,7 @@ h1:hover {
   margin-left: 62.7vw;
   width: 36.5vw;
   height: 88.38vw;
-  z-index: -9;
+  /* z-index: -9; */
 }
 .box1Section3 {
   width: 100%;
@@ -145,10 +145,12 @@ h1:hover {
   height: 22.24vw;
   background-image: url("../images/3.svg");
   filter: blur(0.5vw);
-  z-index: 300;
+  /* z-index: 300; */
+  transition: filter 1s ease;
 }
 .image1Section3:hover {
-  animation: blur-in 3s ease;
+  filter: blur(0vw);
+  transition: filter 3s ease;
 }
 .image2Section3 {
   width: 100%;
@@ -296,7 +298,7 @@ h1:hover {
   height: 50vw;
   margin-top: 37vw;
   position: relative;
-  z-index: -9;
+  /* z-index: -9; */
 }
 .imgSection5 {
   background-size: cover;
@@ -307,7 +309,7 @@ h1:hover {
   position: absolute;
   width: 15vw;
   height: 60vw;
-  z-index: 1;
+  /* z-index: 1; */
   background-image: url("../images/t1.svg");
   margin-top: 7vw;
   margin-left: 1.8vw;
@@ -316,7 +318,7 @@ h1:hover {
   position: absolute;
   width: 33vw;
   height: 52vw;
-  z-index: 3;
+  /* z-index: 3; */
   margin-top: 4.5vw;
   margin-left: 17vw;
   background-image: url("../images/t2.svg");
@@ -325,7 +327,7 @@ h1:hover {
   position: absolute;
   width: 33vw;
   height: 52vw;
-  z-index: 3;
+  /* z-index: 3; */
   margin-top: 4.5vw;
   margin-left: 50vw;
   background-image: url("../images/t2.svg");
@@ -334,7 +336,7 @@ h1:hover {
   position: absolute;
   width: 15vw;
   height: 60vw;
-  z-index: 4;
+  /* z-index: 4; */
   margin-top: 7vw;
   margin-left: 83vw;
   background-image: url("../images/t1.svg");
@@ -343,7 +345,7 @@ h1:hover {
   position: absolute;
   width: 41vw;
   height: 45vw;
-  z-index: 5;
+  /* z-index: 5; */
   margin-top: 18vw;
   margin-left: 5vw;
   background-image: url("../images/t3.svg");
@@ -352,7 +354,7 @@ h1:hover {
   position: absolute;
   width: 41vw;
   height: 50vw;
-  z-index: 6;
+  /* z-index: 6; */
   margin-top: 12vw;
   margin-left: 29vw;
   background-image: url("../images/t4.svg");
@@ -361,7 +363,7 @@ h1:hover {
   position: absolute;
   width: 41vw;
   height: 45vw;
-  z-index: 7;
+  /* z-index: 7; */
   margin-top: 18vw;
   margin-left: 54vw;
   background-image: url("../images/t3.svg");
@@ -370,7 +372,7 @@ h1:hover {
   position: absolute;
   width: 12vw;
   height: 12vw;
-  z-index: 1000;
+  /* z-index: 1000; */
   margin-top: 0vw;
   margin-left: 25vw;
   background-image: url("../images/20.svg");
@@ -382,7 +384,7 @@ h1:hover {
   height: 17vw;
   margin-top: 0vw;
   position: relative;
-  z-index: 100;
+  /* z-index: 100; */
 }
 .footer {
   border-top: #393939 0.02vw solid;
